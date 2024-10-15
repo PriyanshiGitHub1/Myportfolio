@@ -1,5 +1,7 @@
 import { useState } from "react"
 import "./AboutMe.css"
+import Wallpaper1 from "./aboutme.jpg";
+import MyPicture from "./mypic.jpeg";
 
 const About = () => {
 
@@ -8,8 +10,8 @@ const [checked, setChecked] = useState(true);
 
     return (
       <>
-      <div className="about-wallpaper"><img src="/images/aboutme.jpg" alt="Wallpaper" /></div>
-      <div className="Me"><img src="/images/mypic.jpeg" alt="My Picture" /></div>
+      <div className="about-wallpaper"><img src= {Wallpaper1} alt="Wallpaper" /></div>
+      <div className="Me"><img src= {MyPicture} alt="My Picture" /></div>
       <div className="about-container">
       <h1>I'm Priyanshi Singh </h1>
       <h3>Front End Developer</h3>

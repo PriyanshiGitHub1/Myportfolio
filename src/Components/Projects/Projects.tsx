@@ -4,18 +4,24 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import IDCBank from './bank.jpg';
+import GlitzandGlam from './gltizandglam1.jpg';
+import HackerNews from './hackernews.jpg';
+import TrelloBoard from './trelloboard.jpg';
+import YouTube from './youtube.jpg';
+import Wallpaper3 from './wallpaper7.jpg';
 
 const Projects = () => {
   return (
     <>
-      <div className="projects-img-container"><img src="/images/wallpaper7.jpg" alt="Wallpaper" /> </div>
+      <div className="projects-img-container"><img src= {Wallpaper3} alt="Wallpaper" /> </div>
       <div className="projects-container">
         <div className='row1'>
           <div>
             <Card sx={{ maxWidth: 345, backgroundColor: 'rgb(87, 3, 87)' }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/images/youtube.jpg"
+                image= {YouTube}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white' }}>
@@ -39,7 +45,7 @@ const Projects = () => {
             <Card sx={{ maxWidth: 345, backgroundColor: 'maroon' }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/images/trelloboard.jpg"
+                image= {TrelloBoard}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white' }}>
@@ -61,7 +67,7 @@ const Projects = () => {
             <Card sx={{ maxWidth: 345, backgroundColor: '#210585' }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/images/hackernews.jpg"
+                image= {HackerNews}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white' }}>
@@ -88,8 +94,7 @@ const Projects = () => {
             <Card sx={{ maxWidth: 345, backgroundColor: '#022e11' }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/images/bank.jpg"
-              />
+                image= {IDCBank}              />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white' }}>
                   IDC Bank
@@ -111,7 +116,7 @@ const Projects = () => {
             <Card sx={{ maxWidth: 345, backgroundColor: '#ce1186' }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/images/glitzandglam1.jpg"
+                image= {GlitzandGlam}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white' }}>

@@ -4,10 +4,11 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Wallpaper4 from './wallpaper8.jpg'
 
 const Contact = () => {
   return (
-    <div className="contact-img-container"><img src="/images/wallpaper8.jpg" alt="Wallpaper" />
+    <div className="contact-img-container"><img src= {Wallpaper4} alt="Wallpaper" />
       <div className="contact-container">
         <h1> Want to <br />
          Hire Me?</h1>
