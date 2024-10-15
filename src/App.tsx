@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-        <Router>
+        <Router basename="/Myportfolio">
           <div className='tab-container'>
             <Tabs>
               <Tab label="Home" component={Link} to={"/"} sx={{ fontWeight: 'bold', color: 'white', backgroundColor: 'black', zIndex: 1 }} />
