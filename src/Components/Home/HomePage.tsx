@@ -1,6 +1,6 @@
 import "./HomePage.css"
 import Background from "./Background.jpg";
-import Resume from "./resume.pdf";
+import Resume from "./Final-resume.pdf";
 
 const HomePage = () => {
 
