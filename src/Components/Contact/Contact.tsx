@@ -1,4 +1,4 @@
-// @ts-nocheckgit status
+// @ts-nocheck
 
 import "./Contact.css"
 import { IoIosCall } from "react-icons/io";
