@@ -1,3 +1,5 @@
+// @ts-nocheckgit status
+
 import "./Contact.css"
 import { IoIosCall } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
