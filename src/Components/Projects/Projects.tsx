@@ -89,7 +89,7 @@ const Projects = () => {
           </div>
     
         </div>
-        <div className='row2'>
+        {/* <div className='row2'>
           <div>
             <Card sx={{ maxWidth: 345, backgroundColor: '#022e11' }}>
               <CardMedia
@@ -136,7 +136,7 @@ const Projects = () => {
               </CardActions>
             </Card>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
