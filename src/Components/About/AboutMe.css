@@ -1,0 +1,75 @@
+.about-wallpaper img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    filter: blur(2px);
+  }
+
+.about-container {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    color: black;
+}
+
+.about-container h1, h2, h3, p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.about-container p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.grid-container {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.grid-item-left{
+    padding: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.grid-item-right{
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.Me img {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 470px;
+    height: 600px;
+    border: 5px solid #413737; 
+}
+
+@media (max-width: 1231px) {
+    .Me img {
+        position: absolute;
+        top: 15%;
+        width: 130px;
+        height: 200px;
+        border: 5px solid #413737; 
+    }
+
+    .about-container {
+        position: absolute;
+        top: 35%;
+        right: 50%;
+        color: black;
+    }
+  }

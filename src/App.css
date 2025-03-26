@@ -1,0 +1,39 @@
+
+#root {
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-container {
+  position: absolute;
+  right: 0; /* Changed from left to right */
+  top: 0; /* Added top: 0 */
+  color: #fff;
+  z-index: 100; /* Added z-index to ensure it's on top */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tab-container {
+    position: static; /* Remove absolute positioning on mobile */
+    width: 100%; /* Full width on mobile */
+    text-align: center; /* Center tabs on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-container .MuiTabs-root {
+    min-width: 100%; /* Ensure tabs take full width */
+  }
+
+  .tab-container .MuiTab-root {
+    padding: 6px 8px; /* Reduce padding on very small screens */
+    font-size: 0.8rem; /* Reduce font size */
+  }
+}
+
+.component-render {
+  margin-top: 60px; /* Add margin to prevent overlap with tabs */
+}
